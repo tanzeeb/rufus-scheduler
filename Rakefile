@@ -22,17 +22,19 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
 
   gem.version = Rufus::Scheduler::VERSION
-  gem.name = 'rufus-scheduler'
+  gem.name = 'tanzeeb-rufus-scheduler'
   gem.summary = 'job scheduler for Ruby (at, cron, in and every jobs)'
 
   gem.description = %{
     job scheduler for Ruby (at, cron, in and every jobs).
 
     By default uses a Ruby thread, if EventMachine is present, it will rely on it.
+
+    This fork adds timezone support to cron schedules.
   }
-  gem.email = 'jmettraux@gmail.com'
-  gem.homepage = 'http://github.com/jmettraux/rufus-scheduler/'
-  gem.authors = [ 'John Mettraux' ]
+  gem.email = 'tanzeeb@gmail.com'
+  gem.homepage = 'http://github.com/tanzeeb/rufus-scheduler/'
+  gem.authors = [ 'John Mettraux', 'Tanzeeb Khalili', 'Matt Briggs', 'Sean Kirby' ]
   gem.rubyforge_project = 'rufus'
 
   gem.test_file = 'spec/spec.rb'
