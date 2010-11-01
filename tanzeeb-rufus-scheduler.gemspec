@@ -56,6 +56,7 @@ Gem::Specification.new do |s|
      "spec/spec_base.rb",
      "spec/stress_schedule_unschedule_spec.rb",
      "spec/timeout_spec.rb",
+     "tanzeeb-rufus-scheduler.gemspec",
      "test/kjw.rb",
      "test/t.rb"
   ]
