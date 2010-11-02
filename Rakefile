@@ -44,7 +44,7 @@ Jeweler::Tasks.new do |gem|
   gem.add_development_dependency 'yard'
   gem.add_development_dependency 'bacon'
   gem.add_development_dependency 'jeweler'
-  gem.add_development_dependency 'tzinfo'
+  gem.add_dependency 'tzinfo'
 
   # gemspec spec : http://www.rubygems.org/read/chapter/20
 end
