@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Mettraux", "Tanzeeb Khalili", "Matt Briggs", "Sean Kirby"]
-  s.date = %q{2010-11-01}
+  s.date = %q{2010-11-02}
   s.description = %q{
     job scheduler for Ruby (at, cron, in and every jobs).
 
@@ -40,7 +40,6 @@ Gem::Specification.new do |s|
      "lib/rufus/sc/version.rb",
      "lib/rufus/scheduler.rb",
      "misc/cronline_next_time_cost.rb",
-     "rufus-scheduler.gemspec",
      "spec/at_in_spec.rb",
      "spec/at_spec.rb",
      "spec/blocking_spec.rb",
